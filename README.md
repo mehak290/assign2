@@ -232,26 +232,6 @@ Here is a simple **HTML & CSS** snippet used in this project:
       enabling dynamic and modern user interfaces.
     </p>
   </div>
-
-  <div id="container">
-    <section class="about" id="about">
-      <h2>About Me</h2>
-      <p>This is a blog page sample.</p>
-    </section>
-    <section class="experience">
-      <h2>Experience</h2>
-      <p>It has been 10+ years of working in this section.</p>
-    </section>
-    <section class="skills" id="skills">
-      <h2>Skills</h2>
-      <div id="skill-indicators">
-        <div class="skill" style="flex: 0 0 70%;">HTML <span>70%</span></div>
-        <div class="skill" style="flex: 0 0 85%;">CSS <span>85%</span></div>
-        <div class="skill" style="flex: 0 0 60%;">JavaScript <span>60%</span></div>
-        <div class="skill" style="flex: 0 0 50%;">React <span>50%</span></div>
-      </div>
-    </section>
-  </div>
 </body>
 </html>
 
