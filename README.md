@@ -7,8 +7,164 @@ This project is designed to showcase a webpage with an interactive button, creat
 ## Demo Preview (HTML & CSS)
 Here is a simple **HTML & CSS** snippet used in this project:
 
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>MY GOV </title><style>h1{color:red;}</style>
-<link rel="stylesheet" href="./1219MehakSampla assign3_files/assignmnent2.css"></head><body>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>MY GOV </title><style>h1{color:red;}
+body{font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-align: justify;
+background-color: bisque;}
+h1{color:deeppink;
+background-color: cornsilk;
+text-align: center;}
+#navigation{color:white;
+background-color: black;
+margin:20px;}
+h4{color:greenyellow;}
+img{height: 500px;
+width: 500px;
+border:2px;}
+p{color:blue;}
+h2{color:coral;}
+#container {
+    display: flex;
+    flex-direction: column:
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);}
+#skills {
+        display: flex;
+        flex-direction: column;}
+    
+    #skill-indicators {
+        display: flex; 
+        flex-wrap: wrap; 
+    }
+    
+    #skill {
+        background-color: #e0e0e0;
+        border-radius: 4px;
+        margin: 5px;
+        padding: 10px;
+        color: #fff;
+        text-align: center;
+        position: relative;
+    }
+    
+    #skill span {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+    
+    @media (max-width: 600px) {
+        .container {
+            padding: 10px;
+        }
+    
+        #skill-indicators {
+            flex-direction: column; 
+        }
+    
+        #skill {
+            width: 100%; 
+            margin: 10px 0; 
+        
+    #featured-post {
+            max-width: 600px; 
+            margin: 20px auto; 
+            padding: 20px; 
+            border: 1px solid #ccc; 
+            border-radius: 8px; 
+            background-color: white; 
+            position: relative; 
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+        }
+        
+#featured-image {
+            width: 100%; 
+            border-radius: 4px; 
+        }
+        
+#summary {
+            margin: 15px 0; 
+        }
+#read-more {
+            position: absolute; 
+            bottom: 20px; 
+            right: 20px; 
+            padding: 10px 15px;
+            background-color: #007bff; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 4px; 
+            transition: background-color 0.3s;}
+#card {
+                position: relative;
+                max-width: 300px;
+                background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+                border-radius: 8px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                overflow: hidden;
+                transition: transform 0.3s ease;
+                padding: 20px;
+            }
+            
+#card:hover {
+                transform: scale(1.05);
+            }
+            
+            #card::before, .card::after {
+                content: '';
+                position: absolute;
+                border: 2px solid rgba(255, 255, 255, 0.7);
+                border-radius: 10px;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+            
+            #card::before {
+                transform: translate(-5px, -5px);
+            }
+            
+            #card::after {
+                transform: translate(5px, 5px);
+            }
+            
+            #card-title {
+                font-size: 1.5em;
+                color: #00796b;
+                margin: 0 0 10px 0;
+            }
+            
+            #card-image {
+                width: 100%;
+                border-radius: 4px;
+            }
+            
+            #card-description {
+                color: #555;
+                margin: 10px 0;
+                overflow-wrap: break-word;
+            }
+            
+            #card-description a {
+                color: #00796b;
+                text-decoration: none; 
+                transition: color 0.2s;
+            }
+            
+            #card-description a:hover {
+                color: #004d40;
+            }
+            
+            #card-description a:active {
+                color: #00332a; 
+            }
+</style>
+</head><body>
 <header>
     <h1>ASSIGNMENT3</h1></header>
 <div id="navigation">
