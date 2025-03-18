@@ -230,6 +230,7 @@ Here is a simple **HTML & CSS** snippet used in this project:
       ensure consistency across your website while also making it easier to update and maintain the design.
       CSS has evolved to support advanced features like flexbox, grid layouts, and custom properties,
       enabling dynamic and modern user interfaces.
+      <img src="C:\Users\Mehak Sampla\OneDrive\Pictures\Screenshots">
     </p>
   </div>
 </body>
